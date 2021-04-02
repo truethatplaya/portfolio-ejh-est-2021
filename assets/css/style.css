@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*
+Colors
+#264653, Charcoal
+#2a9d8f, Persian Green
+#e9c46a, Orange Yellow Crayola,
+#f4a261, Sandy Brown
+#e76f51, Burnt Sienaa
+*/
+
+.header {
+  background-color: #264653;
+  color: #ffffff;
+}
+
+.hero {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("/assets/images/marcus-ganahl-W5qgKZj-qnk-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
