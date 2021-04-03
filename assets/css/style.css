@@ -40,12 +40,12 @@ Colors
 }
 
 .hero {
-  height: 800px;
+  height: 400px;
   width: 100%;
   margin-bottom: 25px;
   background-image: url("/assets/images/marcus-ganahl-W5qgKZj-qnk-unsplash.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 body {
@@ -74,4 +74,19 @@ h6 {
 
 p {
   font-size: 16px;
+}
+
+.about-me {
+  margin-bottom: 20px;
+  padding: 50px;
+}
+
+.project {
+  margin-bottom: 20px;
+  padding: 50px;
+}
+
+.contact-me {
+  margin-bottom: 20px;
+  padding: 50px;
 }
