@@ -43,7 +43,7 @@ Colors
   height: 400px;
   width: 100%;
   margin-bottom: 25px;
-  background-image: url("/assets/images/marcus-ganahl-W5qgKZj-qnk-unsplash.jpg");
+  background-image: url("/assets/images/ana-sofia-silva-Hi6y4EddFlY-unsplash.jpg");
   background-size: cover;
   background-position: bottom;
 }
@@ -51,6 +51,42 @@ Colors
 body {
   font-family: "Rasa", serif;
   font-weight: 300;
+}
+
+.projects {
+  margin: 15px;
+}
+
+.primary-project {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.projects-box-1 {
+  border: 2px black solid;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin: 20px;
+  width: 80%;
+}
+
+.secondary-projects {
+  display: flex;
+  width: 100%;
+}
+
+.secondary-proj-rows {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-box-2 {
+  border: 2px black solid;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin: 20px;
+  width: 30%;
 }
 
 h1,
