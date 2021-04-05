@@ -38,6 +38,6 @@ SO THAT I can review samples of their work and assess whether they're a good can
 
 [Go to Alina Hernandez's portfolio](https://truethatplaya.github.io/portfolio-ejh-est-2021/)
 
-## Link to git hub repository "hw-01"
+## Link to git hub repository "portfolio-ejh-est-2021"
 
 [Go to truethatplay/portfolio-ejh-est-2021 github](https://github.com/truethatplaya/portfolio-ejh-est-2021.git)
