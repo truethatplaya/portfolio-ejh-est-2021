@@ -94,6 +94,51 @@ body {
   padding: 10px;
 }
 
+#projFeature {
+  height: 400px;
+  width: 50%;
+  margin-bottom: 25px;
+  background-image: url("/assets/images/pat-whelen-68OkRwuOeyQ-unsplash.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+#proj2 {
+  height: auto;
+  width: 50%;
+  margin-bottom: 25px;
+  background-image: url("/assets/images/chuttersnap-dijDmGXAiFY-unsplash.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+#proj3 {
+  height: auto;
+  width: 50%;
+  margin-bottom: 25px;
+  background-image: url("/assets/images/j-williams-qbcW8m4IwWY-unsplash.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+#proj4 {
+  height: auto;
+  width: 50%;
+  margin-bottom: 25px;
+  background-image: url("/assets/images/ryunosuke-kikuno-tk7bmlH-c-8-unsplash.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+#proj5 {
+  height: auto;
+  width: 50%;
+  margin-bottom: 25px;
+  background-image: url("/assets/images/ridham-parikh-4fpXtzzvcr4-unsplash.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
 .row-1 {
   flex-direction: row;
 }
@@ -131,6 +176,11 @@ body {
 .large-project {
   flex: 1 0 90%;
   background: orange;
+}
+
+.small-project-img {
+  max-width: 50%;
+  height: auto;
 }
 
 .contact-me-header {
