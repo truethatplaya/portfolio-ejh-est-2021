@@ -9,16 +9,23 @@ Colors
 .header {
   background-color: #264653;
   color: #ffffff;
-  padding: 20px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.highlight {
+  background-color: black;
+  width: 30%;
+  padding-right: 20px;
+  font-size: 150%;
 }
 
 .header nav {
-  /* background-color: #2a9d8f; */
-  /* display: flex;
-  flex-wrap: wrap;
-  align-content: flex-end;
-  flex-direction: row; */
-  float: right;
+  display: flex;
+  align-items: flex-end;
+  padding-top: 15px;
+  margin-right: 20px;
   font-size: 20px;
   font-family: "Barlow Condensed", sans-serif;
 }
@@ -28,7 +35,6 @@ Colors
 }
 
 .header nav ul li {
-  display: inline-block;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -40,6 +46,16 @@ Colors
   background-image: url("/assets/images/ana-sofia-silva-Hi6y4EddFlY-unsplash.jpg");
   background-size: cover;
   background-position: bottom;
+}
+
+.hero-textBox {
+  color: #264653;
+  background-color: black;
+  width: 30%;
+  padding-right: 20px;
+  font-size: 150%;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
 body {
@@ -65,7 +81,6 @@ body {
   align-items: center;
   height: 20%;
   text-align: right;
-  border: 1px blue solid;
 }
 
 .about-me-section {
@@ -74,7 +89,6 @@ body {
   align-items: center;
   height: 20%;
   text-align: left;
-  border: 1px blue solid;
   padding-left: 20px;
 }
 
@@ -84,13 +98,12 @@ body {
   align-items: center;
   height: 60%;
   text-align: right;
-  border: 1px blue solid;
 }
 
 .project-section {
   display: flex;
   flex-wrap: wrap;
-  border: 1px blue solid;
+
   padding: 10px;
 }
 
@@ -166,7 +179,6 @@ body {
 }
 
 .small-project {
-  background-color: blue;
   padding: 45px;
   color: white;
   flex: 1 1 25%;
@@ -189,7 +201,6 @@ body {
   align-items: center;
   height: 20%;
   text-align: right;
-  border: 1px blue solid;
 }
 
 /* we are good above this line */
@@ -217,7 +228,7 @@ body {
   align-items: center;
   height: 20%;
   text-align: left;
-  border: 1px blue solid;
+
   padding-left: 20px;
 }
 
@@ -274,4 +285,22 @@ h6 {
 
 p {
   font-size: 16px;
+}
+
+.contact-me-section {
+  display: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.contact-me-section ul {
+  list-style-type: none;
+}
+
+.contact-me-section ul li {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
 }
