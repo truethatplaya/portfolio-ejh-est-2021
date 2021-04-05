@@ -9,21 +9,19 @@ Colors
 .header {
   background-color: #264653;
   color: #ffffff;
-  padding-right: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 20px;
 }
 
-.highlight {
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
   background-color: black;
-  width: 30%;
-  padding-right: 20px;
-  font-size: 150%;
+  padding-right: 2px;
+  padding-left: 100px;
 }
 
 .header nav {
-  display: flex;
-  align-items: flex-end;
+  float: right;
   padding-top: 15px;
   margin-right: 20px;
   font-size: 20px;
@@ -35,8 +33,15 @@ Colors
 }
 
 .header nav ul li {
+  display: inline-block;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+a {
+  color: #d9e3da;
+  text-decoration: underline;
+  text-decoration-color: #d9e3da;
 }
 
 .hero {
