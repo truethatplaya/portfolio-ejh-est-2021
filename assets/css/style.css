@@ -116,7 +116,7 @@ body {
   height: 400px;
   width: 50%;
   margin-bottom: 25px;
-  background-image: url("/assets/images/pat-whelen-68OkRwuOeyQ-unsplash.jpg");
+  /* background-image: url("/assets/images/pat-whelen-68OkRwuOeyQ-unsplash.jpg"); */
   background-size: cover;
   background-position: bottom;
 }

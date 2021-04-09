@@ -1,0 +1,167 @@
+body {
+  background-color: darkgray;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #264653;
+  color: #ffffff;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+header h1 {
+  display: block;
+  font-size: 48px;
+  background-color: black;
+  height: 50px;
+  padding-left: 100px;
+  padding-right: 20px;
+  width: 300px;
+  text-align: right;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 30px;
+  background-color: #264653;
+  box-shadow: 1px 1px 12 px;
+  padding: 0px 5%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav ul li a {
+  color: #d9e3da;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.hero-container {
+  position: relative;
+  display: inline-block;
+}
+
+.hero-image {
+  height: auto;
+  width: 100%;
+  background-position: relative;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.hero-text {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 15%;
+  width: 30%;
+  font-size: 36px;
+  background-color: #d9e3da;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+}
+
+.about-me-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-me-aside {
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+.about-me-container h1 {
+  text-align: right;
+}
+
+.about-me-main {
+  background-color: red;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-aside {
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+.project-container h1 {
+  text-align: right;
+}
+
+.project-main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-img {
+  display: flex;
+  height: auto;
+  width: 100%;
+  background-position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.project-text {
+  font-size: 36px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: left;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  justify-content: start;
+}
+
+.contact-me-container {
+  display: flex;
+}
+
+.contact-me-aside {
+  border-color: black;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+.contact-me-container h1 {
+  text-align: right;
+}
+
+.contact-me-main {
+  display: flex;
+  font-size: 20px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.contact-me-main ul li {
+  display: inline-block;
+  justify-content: center;
+  padding: 20px;
+}
