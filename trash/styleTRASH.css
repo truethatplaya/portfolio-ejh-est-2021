@@ -1,0 +1,309 @@
+/*
+Colors
+#000000 black
+#ffffff white
+#d9e3da light green
+#a7bea9 dark green
+*/
+
+.header {
+  background-color: #264653;
+  color: #ffffff;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+  background-color: black;
+  padding-right: 20px;
+  padding-left: 125px;
+}
+
+.header nav {
+  float: right;
+  padding-top: 15px;
+  margin-right: 20px;
+  font-size: 20px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.header nav ul {
+  list-style-type: none;
+}
+
+.header nav ul li {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a {
+  color: #d9e3da;
+  text-decoration: underline;
+  text-decoration-color: #d9e3da;
+}
+
+.hero {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("/assets/images/ana-sofia-silva-Hi6y4EddFlY-unsplash.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.hero h3 {
+  float: right;
+  font-size: 36px;
+  background-color: #d9e3da;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+body {
+  font-family: "Rasa", serif;
+  font-weight: 300;
+}
+
+.main {
+  display: flex;
+  flex-basis: 100%;
+}
+
+.aside {
+  display: flex;
+  flex-basis: 35%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-me-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  text-align: right;
+}
+
+.about-me-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.project-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  text-align: right;
+}
+
+.project-section {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 10px;
+}
+
+#projFeature {
+  height: 400px;
+  width: 50%;
+  margin-bottom: 25px;
+  /* background-image: url("/assets/images/pat-whelen-68OkRwuOeyQ-unsplash.jpg"); */
+  background-size: cover;
+  background-position: bottom;
+}
+
+#proj2 {
+  height: auto;
+  width: 50%;
+  margin-bottom: 25px;
+  background-image: url("/assets/images/chuttersnap-dijDmGXAiFY-unsplash.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+#proj3 {
+  height: auto;
+  width: 50%;
+  margin-bottom: 25px;
+  background-image: url("/assets/images/j-williams-qbcW8m4IwWY-unsplash.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+#proj4 {
+  height: auto;
+  width: 50%;
+  margin-bottom: 25px;
+  background-image: url("/assets/images/ryunosuke-kikuno-tk7bmlH-c-8-unsplash.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+#proj5 {
+  height: auto;
+  width: 50%;
+  margin-bottom: 25px;
+  background-image: url("/assets/images/ridham-parikh-4fpXtzzvcr4-unsplash.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.row-1 {
+  flex-direction: row;
+}
+
+.box-1 {
+  height: 200px;
+  width: 100%;
+  background-image: url("/assets/images/chuttersnap-dijDmGXAiFY-unsplash.jpg");
+  background-size: cover;
+  background-position: bottom;
+  color: red;
+}
+
+.row-2 {
+  flex-direction: row;
+}
+
+.row-3 {
+  flex-direction: row;
+}
+
+.project-rows {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.small-project {
+  padding: 45px;
+  color: white;
+  flex: 1 1 25%;
+  margin: 5px;
+}
+
+.large-project {
+  flex: 1 0 90%;
+}
+
+.small-project-img {
+  max-width: 50%;
+  height: auto;
+}
+
+.contact-me-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  text-align: right;
+}
+
+/* we are good above this line */
+.middle-content-section {
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: column;
+}
+
+.projects {
+  height: 95%;
+}
+
+.projects-box-1 {
+  border: 2px black solid;
+  margin: 20px;
+  flex-basis: 85%;
+  height: 20%;
+  flex-direction: row;
+}
+
+.contact-me-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  text-align: left;
+
+  padding-left: 20px;
+}
+
+.row1 {
+  flex-direction: row;
+  height: 30%;
+  flex: 4;
+}
+
+.row2 {
+  flex-direction: column;
+  height: 70%;
+  flex: 1;
+}
+
+.secondary-projects {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+}
+
+.secondary-proj-columns {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+
+.projects-box-2 {
+  border: 2px black solid;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin: 20px;
+  flex-basis: 50%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.button {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.contact-me-section {
+  display:;;;;;;;;;;;;;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;x
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.contact-me-section ul {
+  list-style-type: none;
+}
+
+.contact-me-section ul li {
+  display: flex;
+  justify-content: space-evenly;
+}

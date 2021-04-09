@@ -1,12 +1,10 @@
-/*
-Colors
-#000000 black
-#ffffff white
-#d9e3da light green
-#a7bea9 dark green
-*/
+body {
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+}
 
-.header {
+header {
   background-color: #264653;
   color: #ffffff;
   padding-right: 20px;
@@ -14,296 +12,202 @@ Colors
   padding-bottom: 20px;
 }
 
-.header h1 {
-  display: inline-block;
+header h1 {
+  display: block;
   font-size: 48px;
   background-color: black;
+  height: 50px;
+  padding-left: 100px;
   padding-right: 20px;
-  padding-left: 125px;
-}
-
-.header nav {
-  float: right;
-  padding-top: 15px;
-  margin-right: 20px;
-  font-size: 20px;
-  font-family: "Barlow Condensed", sans-serif;
-}
-
-.header nav ul {
-  list-style-type: none;
-}
-
-.header nav ul li {
-  display: inline-block;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-a {
-  color: #d9e3da;
-  text-decoration: underline;
-  text-decoration-color: #d9e3da;
-}
-
-.hero {
-  height: 400px;
-  width: 100%;
-  margin-bottom: 25px;
-  background-image: url("/assets/images/ana-sofia-silva-Hi6y4EddFlY-unsplash.jpg");
-  background-size: cover;
-  background-position: bottom;
-}
-
-.hero h3 {
-  float: right;
-  font-size: 36px;
-  background-color: #d9e3da;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-
-body {
-  font-family: "Rasa", serif;
-  font-weight: 300;
-}
-
-.main {
-  display: flex;
-  flex-basis: 100%;
-}
-
-.aside {
-  display: flex;
-  flex-basis: 35%;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.about-me-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 20%;
+  width: 300px;
   text-align: right;
-}
-
-.about-me-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 20%;
-  text-align: left;
-  padding-left: 20px;
-}
-
-.project-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 60%;
-  text-align: right;
-}
-
-.project-section {
-  display: flex;
-  flex-wrap: wrap;
-
-  padding: 10px;
-}
-
-#projFeature {
-  height: 400px;
-  width: 50%;
-  margin-bottom: 25px;
-  /* background-image: url("/assets/images/pat-whelen-68OkRwuOeyQ-unsplash.jpg"); */
-  background-size: cover;
-  background-position: bottom;
-}
-
-#proj2 {
-  height: auto;
-  width: 50%;
-  margin-bottom: 25px;
-  background-image: url("/assets/images/chuttersnap-dijDmGXAiFY-unsplash.jpg");
-  background-size: cover;
-  background-position: bottom;
-}
-
-#proj3 {
-  height: auto;
-  width: 50%;
-  margin-bottom: 25px;
-  background-image: url("/assets/images/j-williams-qbcW8m4IwWY-unsplash.jpg");
-  background-size: cover;
-  background-position: bottom;
-}
-
-#proj4 {
-  height: auto;
-  width: 50%;
-  margin-bottom: 25px;
-  background-image: url("/assets/images/ryunosuke-kikuno-tk7bmlH-c-8-unsplash.jpg");
-  background-size: cover;
-  background-position: bottom;
-}
-
-#proj5 {
-  height: auto;
-  width: 50%;
-  margin-bottom: 25px;
-  background-image: url("/assets/images/ridham-parikh-4fpXtzzvcr4-unsplash.jpg");
-  background-size: cover;
-  background-position: bottom;
-}
-
-.row-1 {
-  flex-direction: row;
-}
-
-.box-1 {
-  height: 200px;
-  width: 100%;
-  background-image: url("/assets/images/chuttersnap-dijDmGXAiFY-unsplash.jpg");
-  background-size: cover;
-  background-position: bottom;
-  color: red;
-}
-
-.row-2 {
-  flex-direction: row;
-}
-
-.row-3 {
-  flex-direction: row;
-}
-
-.project-rows {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.small-project {
-  padding: 45px;
-  color: white;
-  flex: 1 1 25%;
-  margin: 5px;
-}
-
-.large-project {
-  flex: 1 0 90%;
-}
-
-.small-project-img {
-  max-width: 50%;
-  height: auto;
-}
-
-.contact-me-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 20%;
-  text-align: right;
-}
-
-/* we are good above this line */
-.middle-content-section {
-  display: flex;
-  flex-basis: 100%;
-  flex-direction: column;
-}
-
-.projects {
-  height: 95%;
-}
-
-.projects-box-1 {
-  border: 2px black solid;
-  margin: 20px;
-  flex-basis: 85%;
-  height: 20%;
-  flex-direction: row;
-}
-
-.contact-me-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 20%;
-  text-align: left;
-
-  padding-left: 20px;
-}
-
-.row1 {
-  flex-direction: row;
-  height: 30%;
-  flex: 4;
-}
-
-.row2 {
-  flex-direction: column;
-  height: 70%;
-  flex: 1;
-}
-
-.secondary-projects {
-  display: flex;
-  flex-direction: row;
-  flex-basis: 100%;
-}
-
-.secondary-proj-columns {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-}
-
-.projects-box-2 {
-  border: 2px black solid;
-  padding-top: 50px;
-  padding-bottom: 20px;
-  margin: 20px;
-  flex-basis: 50%;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
 }
 
-.button {
-  font-family: "Barlow", sans-serif;
-  font-weight: 600;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 30px;
+  background-color: #264653;
+  box-shadow: 1px 1px 12 px;
+  padding: 0px 5%;
 }
 
-p {
-  font-size: 16px;
+nav ul {
+  display: flex;
+  list-style: none;
 }
 
-.contact-me-section {
-  display:;;;;;;;;;;;;;
+a {
+  text-decoration: none;
+}
+
+nav ul li a {
+  color: #d9e3da;
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 20px;x
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.hero-container {
+  position: relative;
+  display: inline-block;
+}
+
+.hero {
+  height: auto;
+  width: 100%;
+  background-position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-text {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 15%;
+  width: 30%;
+  font-size: 36px;
+  background-color: #d9e3da;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+}
+
+.about-me-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-me-aside {
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+.about-me-container h1 {
+  text-align: right;
+}
+
+.about-me-main {
+  background-color: red;
+}
+
+.project-container {
+  display: flex;
+}
+
+.project-aside {
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+.project-main {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+}
+
+#projFeature {
+  background-image: url(../images/pat-whelen-68OkRwuOeyQ-unsplash.jpg);
+  padding: 100px 200px;
+  margin: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+#proj1 {
+  background-image: url(../images/j-williams-qbcW8m4IwWY-unsplash.jpg);
+  padding: 50px 150px;
+  margin: 20px;
+  background-size: cover;
+  background-position: center;
+  flex-wrap: wrap;
+}
+
+#proj2 {
+  background-image: url(../images/ryunosuke-kikuno-tk7bmlH-c-8-unsplash.jpg);
+  padding: 50px 150px;
+  margin: 20px;
+  background-size: cover;
+  background-position: center;
+  flex-wrap: wrap;
+}
+
+#proj3 {
+  background-image: url(../images/ridham-parikh-4fpXtzzvcr4-unsplash.jpg);
+  padding: 50px 150px;
+  margin: 20px;
+  background-size: cover;
+  background-position: center;
+  flex-wrap: wrap;
+}
+
+#proj4 {
+  background-image: url(../images/chuttersnap-dijDmGXAiFY-unsplash.jpg);
+  padding: 50px 150px;
+  margin: 20px;
+  background-size: cover;
+  background-position: center;
+  flex-wrap: wrap;
+}
+
+.feature-project-text {
+  font-size: 36px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: left;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  justify-content: start;
+  color: #d9e3da;
+  background-color: black;
+}
+
+.sub-project-text {
+  color: #d9e3da;
+  background-color: black;
+  font-size: 36px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: left;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+}
+
+.contact-me-container {
+  display: flex;
+}
+
+.contact-me-aside {
+  border-color: black;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+.contact-me-container h1 {
+  text-align: right;
+}
+
+.contact-me-main {
+  display: flex;
+  font-size: 20px;
   font-family: "Barlow Condensed", sans-serif;
 }
 
-.contact-me-section ul {
-  list-style-type: none;
-}
-
-.contact-me-section ul li {
-  display: flex;
-  justify-content: space-evenly;
+.contact-me-main ul li {
+  display: inline-block;
+  justify-content: center;
+  padding: 20px;
 }
