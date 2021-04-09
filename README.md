@@ -32,7 +32,7 @@ SO THAT I can review samples of their work and assess whether they're a good can
 
 ## Screenshot
 
-![Go to a screenshot of Alina Hernandez's portfolio landing page](./assets/images/screenshot-portfolio.png)
+![Go to a screenshot of Alina Hernandez's portfolio landing page](./assets/images/screencapture-truethatplaya-github-io-portfolio-ejh-est-2021.png)
 
 ## Link to deploy website
 
