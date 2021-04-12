@@ -71,7 +71,6 @@ nav ul li a {
 .hero {
   height: auto;
   width: 100%;
-  background-position: relative;
   background-size: cover;
   background-position: center;
 }
@@ -205,7 +204,7 @@ justify-content: left
   background-color: black;
 }
 
-#feature-project0-text {
+#feature-project-text {
   position: absolute;
   bottom: 10px;
   left: 10px;
