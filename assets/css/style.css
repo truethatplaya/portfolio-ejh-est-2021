@@ -113,8 +113,8 @@ nav ul li a {
 
 .project-main {
   display: flex;
-  align-content: center;
-  align-items: center;
+  /* align-content: center; */
+  /* align-items: center; */
   flex-flow: column wrap;
   justify-content: flex-start;
 }
@@ -128,21 +128,25 @@ nav ul li a {
 }
 
 #proj1 {
-  background-image: url(../images/j-williams-qbcW8m4IwWY-unsplash.jpg);
-  padding: 50px 150px;
-  margin: 20px;
-  background-size: cover;
-  background-position: center;
-  flex-wrap: wrap;
+  position: relative;
+
+  /* background-image: url(../images/j-williams-qbcW8m4IwWY-unsplash.jpg); */
+  /* padding: 50px 150px; */
+  /* margin: 20px; */
+  /* background-size: cover; */
+  /* background-position: center; */
+  /* flex-wrap: wrap; */
 }
 
 #proj2 {
-  background-image: url(../images/ryunosuke-kikuno-tk7bmlH-c-8-unsplash.jpg);
+  position: relative;
+
+  /* background-image: url(../images/ryunosuke-kikuno-tk7bmlH-c-8-unsplash.jpg);
   padding: 50px 150px;
   margin: 20px;
   background-size: cover;
   background-position: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
 }
 
 #proj3 {
@@ -173,6 +177,18 @@ nav ul li a {
   justify-content: start;
   color: #d9e3da;
   background-color: black;
+}
+
+#sub-project1-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+#sub-project2-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
 }
 
 .sub-project-text {
