@@ -112,23 +112,27 @@ nav ul li a {
 }
 
 .project-main {
-  display: flex;
+  /* display: flex;
   /* align-content: center; */
   /* align-items: center; */
-  flex-flow: column wrap;
-  justify-content: flex-start;
+  /* flex-flow: column wrap;
+  justify-content: flex-start; */
 }
 
 #projFeature {
-  background-image: url(../images/pat-whelen-68OkRwuOeyQ-unsplash.jpg);
+  position: relative;
+  /* background-image: url(../images/pat-whelen-68OkRwuOeyQ-unsplash.jpg);
   padding: 100px 200px;
   margin: 20px;
   background-size: cover;
-  background-position: center;
+  background-position: center; */
 }
 
 #proj1 {
   position: relative;
+  max-width: 300px;
+  margin: 5px;
+  float: left;
 
   /* background-image: url(../images/j-williams-qbcW8m4IwWY-unsplash.jpg); */
   /* padding: 50px 150px; */
@@ -140,6 +144,9 @@ nav ul li a {
 
 #proj2 {
   position: relative;
+  max-width: 300px;
+  margin: 5px;
+  float: left;
 
   /* background-image: url(../images/ryunosuke-kikuno-tk7bmlH-c-8-unsplash.jpg);
   padding: 50px 150px;
@@ -150,21 +157,34 @@ nav ul li a {
 }
 
 #proj3 {
-  background-image: url(../images/ridham-parikh-4fpXtzzvcr4-unsplash.jpg);
+  position: relative;
+  max-width: 300px;
+  margin: 5px;
+  float: left;
+  /* background-image: url(../images/ridham-parikh-4fpXtzzvcr4-unsplash.jpg);
   padding: 50px 150px;
   margin: 20px;
   background-size: cover;
   background-position: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
 }
 
 #proj4 {
-  background-image: url(../images/chuttersnap-dijDmGXAiFY-unsplash.jpg);
+  position: relative;
+  max-width: 300px;
+  margin: 5px;
+  float: left;
+  /* background-image: url(../images/chuttersnap-dijDmGXAiFY-unsplash.jpg);
   padding: 50px 150px;
   margin: 20px;
   background-size: cover;
   background-position: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+}
+#feature-project-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
 }
 
 .feature-project-text {
@@ -186,6 +206,18 @@ nav ul li a {
 }
 
 #sub-project2-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+#sub-project3-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+#sub-project4-text {
   position: absolute;
   bottom: 10px;
   left: 10px;
