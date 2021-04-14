@@ -65,7 +65,6 @@ nav ul li a {
 
 .hero-container {
   position: relative;
-  /* display: inline-block; */
 }
 
 .hero {
@@ -94,7 +93,9 @@ nav ul li a {
 
 .about-me-container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-me-aside {
@@ -111,12 +112,17 @@ nav ul li a {
   text-align: right;
 }
 
-.about-me-main {
-  background-color: red;
+#about-me-main-text {
+  display: grid;
+  font-size: 14px;
+  font-family: "Barlow Condensed", sans-serif;
+  justify-content: center;
+  align-content: center;
 }
 
 .project-container {
   display: flex;
+
 }
 
 .project-aside {
@@ -129,35 +135,18 @@ nav ul li a {
   text-align: right;
 }
 
-/* .project-main { */
-/* display: flex; */
-  /* align-content: center; */
-  /* align-items: center; */
-  /* flex-flow: column wrap;
-justify-content: left
-}
-
 #projFeature {
   position: relative;
-  /* background-image: url(../images/pat-whelen-68OkRwuOeyQ-unsplash.jpg);
-  padding: 100px 200px;
-  margin: 20px;
-  background-size: cover;
-  background-position: center; */
+  float: left;
 }
+
 
 #proj1 {
   position: relative;
   max-width: 300px;
   margin: 5px;
+  margin-left: 0;
   float: left;
-
-  /* background-image: url(../images/j-williams-qbcW8m4IwWY-unsplash.jpg); */
-  /* padding: 50px 150px; */
-  /* margin: 20px; */
-  /* background-size: cover; */
-  /* background-position: center; */
-  /* flex-wrap: wrap; */
 }
 
 #proj2 {
@@ -165,26 +154,14 @@ justify-content: left
   max-width: 300px;
   margin: 5px;
   float: left;
-
-  /* background-image: url(../images/ryunosuke-kikuno-tk7bmlH-c-8-unsplash.jpg);
-  padding: 50px 150px;
-  margin: 20px;
-  background-size: cover;
-  background-position: center;
-  flex-wrap: wrap; */
 }
 
 #proj3 {
   position: relative;
   max-width: 300px;
   margin: 5px;
+  margin-left: 0;
   float: left;
-  /* background-image: url(../images/ridham-parikh-4fpXtzzvcr4-unsplash.jpg);
-  padding: 50px 150px;
-  margin: 20px;
-  background-size: cover;
-  background-position: center;
-  flex-wrap: wrap; */
 }
 
 #proj4 {
@@ -192,12 +169,6 @@ justify-content: left
   max-width: 300px;
   margin: 5px;
   float: left;
-  /* background-image: url(../images/chuttersnap-dijDmGXAiFY-unsplash.jpg);
-  padding: 50px 150px;
-  margin: 20px;
-  background-size: cover;
-  background-position: center;
-  flex-wrap: wrap; */
 }
 
 
